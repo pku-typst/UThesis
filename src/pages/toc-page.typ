@@ -1,9 +1,9 @@
 #import "@preview/pointless-size:0.1.1": zh
 
-#import "../fonts.typ": fonts
+#import "../fonts.typ"
 #import "../utils.typ": debug-margin
 
-#let toc-page(outlined-depth: 3) = {
+#let toc-page(outline-depth: 3) = {
   set page(
     paper: "a4",
     numbering: none,
@@ -13,7 +13,7 @@
   )
 
   outline(
-    depth: outlined-depth,
+    depth: outline-depth,
     title: align(
       center,
       block(

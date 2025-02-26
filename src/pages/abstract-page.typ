@@ -1,6 +1,6 @@
 #import "@preview/pointless-size:0.1.1": zh
 
-#import "../fonts.typ": fonts
+#import "../fonts.typ"
 #import "../utils.typ": warn-auto, debug-margin, debug-stroke, debug-v
 
 #let title-size = zh(3)

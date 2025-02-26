@@ -1,6 +1,6 @@
 #import "@preview/pointless-size:0.1.1": zh
 
-#import "../fonts.typ": fonts
+#import "../fonts.typ"
 #import "../utils.typ": auto-default, debug-margin, debug-stroke, debug-v, warn-auto
 
 #let pre-title-size = zh("-0")

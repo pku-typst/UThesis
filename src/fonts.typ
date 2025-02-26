@@ -1,6 +1,5 @@
-#let fonts = (
-  仿宋: ("Times New Roman", "FangSong"),
-  宋体: ("Times New Roman", "SimSun"),
-  黑体: ("Arial", "SimHei"),
-  楷体: ("Times New Roman", "KaiTi_GB2312"),
-)
+#let 仿宋 = ("Times New Roman", "FangSong")
+#let 宋体 = ("Times New Roman", "SimSun")
+#let 黑体 = ("Arial", "SimHei")
+#let 楷体 = ("Times New Roman", "KaiTi_GB2312")
+#let 代码 = ("New Computer Modern Mono", "Courier New", ..黑体)

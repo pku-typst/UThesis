@@ -1,6 +1,6 @@
 #import "@preview/pointless-size:0.1.1": zh
 
-#import "../fonts.typ": fonts
+#import "../fonts.typ"
 #import "../utils.typ": debug-margin, debug-stroke, debug-v
 
 #let title-size = zh(3)
@@ -24,7 +24,7 @@
 
   place(
     center + top,
-    block(stroke: debug-stroke, inset: title-inset)[#claim-title([版权声明])],
+    block(stroke: debug-stroke, inset: title-inset)[#claim-title[版权声明]],
   )
 
   debug-v(v(title-size + 2 * title-inset))
